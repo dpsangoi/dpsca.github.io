@@ -269,7 +269,7 @@
             <a href="contact-us.html">Contact Us</a> 
          </p>
           <p class="footer">D P Sangoi & Associates - Chartered Accountants - Mumbai</p>
-         <p class="">2016</p>
+        <p id="year" class="">2016</p>
          <br>
       </footer>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -310,5 +310,8 @@ $(document).ready(function () {
   (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
     t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
   })(window, document, '_gscq','script','//widgets.getsitecontrol.com/48251/script.js');
+</script>
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
 </script>
    </body>
